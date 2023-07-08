@@ -1,62 +1,101 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.menu-container{
+
+.menu-container {
     color: white;
     background-color: black;
-    padding:20px;
+    padding: 20px;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
+
 }
-.logo-photo{
+
+.logo-photo {
     width: 120px;
 
 }
-.menus{display: flex;
+
+.menus {
+    display: flex;
 }
-.item{
-margin-right:10px;
-padding-right: 8px;
-font-size: 18px;
-cursor:pointer;
+
+.item {
+    margin-right: 10px;
+    padding-right: 8px;
+    font-size: 18px;
+    cursor: pointer;
 
 }
-.item:hover{color: crimson;}
-.banner-img{
+
+.item:hover {
+    color: crimson;
+}
+
+.banner-img {
     width: 300px;
 }
-.banner-container{
+
+.banner-container {
     color: white;
-    display:flex;
+    display: flex;
     justify-content: space-around;
-    height:100vh;/*vertical-height*/
+    height: 100vh;
+    /*vertical-height*/
     /* border:2px solid gray; */
     align-items: center;
     background-image: url("./image/background.png"),
-    linear-gradient(45deg, rgb(8,8,0),#6d1e1e);
+        linear-gradient(45deg, rgb(8, 8, 0), #6d1e1e);
 }
 
-.title
-{
-    font-size:55px;
-    font-weight: bold;
+.title {
+    font-size: 55px;
+    font: weight 800px;
 }
-.desciption{
+
+.description{
     font-size: 17px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.btn{
+
+.btn {
     padding: 10px 20px;
     background-color: rgb(216, 209, 209);
     color: rgb(71, 22, 22);
     border: none;
     border-radius: 20px;
 }
-.btn:hover{color: rgb(46, 168, 87);
-cursor: pointer;}
-.new{align-items: center;}
+
+.btn:hover {
+    color: rgb(46, 168, 87);
+    cursor: pointer;
+}
+
+.new {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+
+}
+
+.about-container {
+    display: flex;
+    padding:30px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.btn2
+{  margin-top:10px;
+    padding: 10px 20px;
+    background-color: rgb(216, 209, 209);
+    color: rgb(71, 22, 22);
+    border: none;
+    border-radius: 5px;}
+    .btn:hover {
+        color: rgb(46, 168, 87);
+        cursor: pointer;}
