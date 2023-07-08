@@ -1,0 +1,18 @@
+*{
+margin:0px;
+padding:0px;
+}
+.container{
+    display: flex;/*parent and by default flex coloumn borabor kaj kore
+    */
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    padding: 20px;
+    background-color: red;
+    width:120px;
+   
+}
+.box2{background-color: green;}
+.box3{background-color: blue;}
