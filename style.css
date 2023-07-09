@@ -99,3 +99,56 @@
     .btn:hover {
         color: rgb(46, 168, 87);
         cursor: pointer;}
+    .box{
+        width: 200px;
+        height: 300px;
+        box-shadow: 4px 2px 15px gray;
+        background-color: black;
+        text-align: center;
+        color: white;
+        border-radius: 20px;
+
+    }
+   .icon{
+    width:70px;
+   }
+   .box-btn{
+    background-color: gray;
+    margin-top: 10px;
+   }
+   .box-title{
+    padding:10px;
+   }
+   .box-description{
+    padding:5px;
+   }
+   .service-container
+   {display: flex;
+    justify-content: space-around;
+    background-image: url("./image/background.png"), linear-gradient(45deg, rgb(8, 8, 0), #101010) ;     
+    padding:124px;
+    margin:1px;
+    
+}
+.last-head
+{   
+    color:white;
+    position: absolute;
+    text-align: center;
+    padding-left: 650px;
+    padding-top: 50px;
+    font: size 54px;
+    
+}
+.foot{background-color: black;}
+.foot-logo{
+    width: 150px;
+    padding: 20px 30px;
+}
+.sec-1{
+    padding:20px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.f1{color: white;
+border:20px}
